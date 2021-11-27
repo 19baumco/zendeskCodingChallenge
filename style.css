@@ -1,0 +1,91 @@
+body {
+	background-color: WhiteSmoke;
+	font-family: Arial, Helvetica, sans-serif;
+}
+table, th, td {
+	border: 1px solid Black;
+	border-collapse: collapse;
+	padding: 3px;
+}
+th, td {
+	word-wrap: break-word;
+	max-width: 750px;
+}
+.ticket {
+	padding: 8px;
+	text-align: left;
+	text-decoration: none;
+	display: block;
+	font-size: 16px;
+	transition-duration: 0.1s;
+	background-color: HoneyDew; 
+	color: Black; 
+	border: 2px solid LightGreen;
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.ticket:hover {
+	background-color: #bef5be;
+	color: Black;
+}
+.cPage, button, h1, p {
+	margin: auto;
+	margin-bottom: 2px;
+	text-align: center;
+}
+.ticketInfo {
+	padding: 0 9px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	background-color: #f1f1f1;
+	width: 100%-8px;
+	background-color: HoneyDew;
+	color: Black; 
+	text-align: left;
+	font-size: 14px	;
+}
+.main {
+	margin: auto;
+	margin-bottom: 2px;
+	text-align: center;
+	width: 35%;
+}
+.upper {
+	text-transform: uppercase;
+}
+.pagination button{
+	width: 44px;
+	height: 44px;
+}
+.noclick {
+	pointer-events: none;
+	color: Gray;
+	border: 0px solid Gray;
+}
+.cPage { 
+	color: Black; 
+	border: 2px solid LightGreen;
+	background-color: Honeydew;
+	pointer-events: none;
+}
+button {
+	background-color: WhiteSmoke;
+	text-align: center;
+	padding: -4px;
+	font-size: 16px;
+	border: 2px solid LightGray;
+	cursor: pointer;
+}
+hr {
+	height: 2px;
+	border-width: 0;
+	color: HoneyDew;
+	background-color: HoneyDew;
+}
+.arrow {
+	border: 0;
+	font-size: 20px;
+}
