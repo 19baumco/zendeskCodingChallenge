@@ -5,7 +5,7 @@ function openHTML() {
 	<!DOCTYPE html>
 	<html lang="en">
 	<meta charset="UTF-8">
-	<title>HTML/PHP Intro</title>
+	<title>Baumgarth Zendesk CC</title>
 	<link rel="stylesheet" href="style.css">
 	<body>
 		<h1>Online Ticket Viewer</h1>
