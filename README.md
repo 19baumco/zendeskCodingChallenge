@@ -36,3 +36,10 @@ Windows Instructions:
 1. In your browser of choice, enter the URL of http://localhost/zendesk/index.php
 2. Within a few moments, the application will have pulled and displayed all the tickets available in the Zendesk subdomain of "zccbaumgarth"
 3. The application may be navigated using the page selection or the navigation arrows
+
+#### Unit Testing Instructions ####
+1. Run the following in command prompt:
+
+   `C:\xampp\htdocs\zendesk`
+   
+   `phpunit testtest.php`
